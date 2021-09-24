@@ -1,0 +1,36 @@
+---
+title: "Act_04_Data_Visualitation_BrayanCR"
+author: "Brayan Coronel Ramirez"
+date: "9/24/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+En este documento crearemos graficas para aca objetivo de nuestra investigación. 
+
+Objetivo principal: 
+
+Encontrar las relaciones de los suicidios con el sexo, el grupo de edad y el año y formular hipotesis para las causas de estas relaciones si es que existen. 
+
+Objetivos específicos: 
+  - Analizar qué grupo de edad es mas propenso al suicidio.
+  - Analizar que sexo es mas propenso al suicidio.
+  - Sacar el promedio del porcentaje de suicidios durante todos los años de estudio.
+  - Encontrar en cual de todos los años de estudio se presentó el mayor número de suicidios. 
+  - Encontrar en cual de todos los años de estudio se presentó el mayor porcentaje de suicidios respecto a la población. 
+  - Encontrar cual combinación de sexo, grupo de edad y año fue la que represento al grupo con mayor número de suicidios de forma aislada y de forma porcentual respecto a la población.
+
+```{r}
+install.packages(c("ggplot2", "hrbrthemes", "dplyr", "tidyr", "viridis") ) #To install all packages at once by using a vector c()
+
+# Now we are going to create a pie chart that compares each age group to see which has the greatest suicides number # First we create the sub data base 
+re
+age.groue.pieChart <- pie()
+# Create Data
+Prop <- c(3,7,9,1,2)
+ 
+# Make the default Pie Plot
+pie(Prop)
+```
